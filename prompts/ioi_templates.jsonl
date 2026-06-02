@@ -1,0 +1,4 @@
+{"id": "abba_store", "template": "When {io} and {s} went to the {place}, {s} gave a {object} to"}
+{"id": "abba_arrival", "template": "After {io} and {s} arrived at the {place}, {s} handed a {object} to"}
+{"id": "baba_trip", "template": "Then, {s} and {io} went to the {place}. {s} gave a {object} to"}
+{"id": "baba_visit", "template": "While {s} and {io} were at the {place}, {s} passed a {object} to"}

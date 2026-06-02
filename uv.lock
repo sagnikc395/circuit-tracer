@@ -256,7 +256,7 @@ wheels = [
 [[package]]
 name = "circuit-tracer"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "circuitsvis" },
     { name = "plotly" },
