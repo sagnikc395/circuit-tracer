@@ -5,21 +5,29 @@ Implementing the IOI Circuit Tracer paper from scratch.
 ## Layout
 
 ```text
-src/ioi_repro/
-  dataset.py        IOI prompt generation and template loading
-  metrics.py        IO-vs-subject logit difference and recovery metrics
-  model.py          TransformerLens model loading and answer token helpers
-  patching.py       Residual stream activation patching loop
-  plotting.py       Plotly heatmap helper
-  experiments/
-    activation_patching.py
-
-prompts/
-  ioi_templates.jsonl
-
-tests/
-  test_dataset.py
-  test_metrics.py
+./
+├── LICENSE
+├── prompts
+│   └── ioi_templates.jsonl
+├── pyproject.toml
+├── README.md
+├── src
+│   ├── __init__.py
+│   ├── config.py
+│   ├── dataset.py
+│   ├── experiments
+│   │   ├── __init__.py
+│   │   └── activation_patching.py
+│   ├── logit_diff.py
+│   ├── metrics.py
+│   ├── model.py
+│   ├── patching.py
+│   ├── plotting.py
+│   └── visualize.py
+├── tests
+│   ├── test_dataset.py
+│   └── test_metrics.py
+└── uv.lock
 ```
 
 ## Quickstart
