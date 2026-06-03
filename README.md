@@ -1,14 +1,6 @@
 # circuit-tracer
 
-Boilerplate for reproducing the IOI experiments from Wang et al. (2022),
-"Interpretability in the Wild: a Circuit for Indirect Object Identification in
-GPT-2 Small."
-
-The scaffold is intentionally narrow: it gives you a clean prompt/corrupted
-prompt generator, logit-difference metrics, GPT-2 Small loading via
-TransformerLens, a residual-stream activation patching experiment, Plotly
-visualization, and small tests for the pieces that do not require downloading a
-model.
+Implementing the IOI Circuit Tracer paper from scratch.
 
 ## Layout
 
